@@ -11,6 +11,17 @@ for (int i = a + 1; i < b; i++) {
         System.out.println(i);
     }
 }
+    for (int i = a + 1; i < b; i++) {
+    if (i % 2 == 0) {
+        System.out.println("Even: " + i);
+    } else {
+        System.out.println("Odd: " + i);
+    }
+}
+
+}
+
+
 
     }
 }
