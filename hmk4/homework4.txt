@@ -1,1 +1,178 @@
+SOFT2101 – Homework 4
+Git & GitHub Part (Person B)
+
+--------------------------------------------------
+a) Git Configuration
+--------------------------------------------------
+
+The following commands were used to configure Git with name, email, and editor:
+
+git config --global user.name "Ali Kanjo"
+git config --global user.email "kanjoali38.com"
+git config --global core.editor "code --wait"
+
+To verify the configuration, the following command was used:
+
+git config --list
+
+
+--------------------------------------------------
+b) Clone Repository and .git Directory
+--------------------------------------------------
+
+The repository was cloned using the command:
+
+git clone https://github.com/AliKanjo/soft2101-hw4.git
+
+After cloning, the contents of the repository and hidden files were listed.
+The local .git directory contains the following files and directories:
+
+HEAD
+config
+description
+hooks
+info
+objects
+refs
+
+
+--------------------------------------------------
+c) README.md and Markdown Link
+--------------------------------------------------
+
+The README.md file was edited to describe the repository for external users.
+
+A clickable Markdown link to the Department of Software Engineering of Işık University
+was added using the following syntax:
+
+[Department of Software Engineering – Işık University](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+
+--------------------------------------------------
+d) .gitignore Rules
+--------------------------------------------------
+
+A .gitignore file was created to prevent committing unnecessary files.
+The following rules were added:
+
+*.class
+*.log
+*.jar
+.idea/
+.vscode/
+target/
+
+These rules were committed with the commit message:
+"setting up gitignore"
+
+
+--------------------------------------------------
+e–f) Feature-1 Branch and Requirement One
+--------------------------------------------------
+
+A branch named feature-1 was created from main.
+All work was done inside the hmk1 directory.
+
+The Java program reads two integers from the console and prints all numbers
+between them, excluding the input values.
+
+The changes were committed with the message:
+"satisfying requirement one"
+
+Commits on feature-1 branch:
+- satisfying requirement one
+
+Files in hmk1 directory on feature-1 branch:
+- RangePrinter.java
+
+Files in hmk1 directory on main branch:
+- RangePrinter.java
+
+
+--------------------------------------------------
+g) Merge feature-1 into main
+--------------------------------------------------
+
+The feature-1 branch was merged into the main branch successfully.
+
+
+--------------------------------------------------
+h–i) Create feature-2 and feature-3 Branches
+--------------------------------------------------
+
+Two new branches were created from main:
+- feature-2
+- feature-3
+
+
+--------------------------------------------------
+j) Feature-2 – Odd Numbers Only
+--------------------------------------------------
+
+On the feature-2 branch, the existing method was modified to print
+only odd numbers in the given range.
+
+The changes were committed with the message:
+"satisfying requirement change two"
+
+Commits on feature-2 branch:
+- satisfying requirement change two
+
+
+--------------------------------------------------
+k) Feature-3 – Even Numbers Only
+--------------------------------------------------
+
+On the feature-3 branch, the existing method was modified to print
+only even numbers in the given range.
+
+The changes were committed with the message:
+"satisfying requirement change three"
+
+
+--------------------------------------------------
+l–m) Merge feature-2 and feature-3 into main
+--------------------------------------------------
+
+First, feature-2 was merged into main.
+Then, feature-3 was merged into main.
+
+A merge conflict occurred while merging feature-3 into main.
+The conflict was resolved using GitHub’s web editor by combining
+both odd and even number printing logic into a single loop.
+
+
+--------------------------------------------------
+QUESTION: Differences Between Branches
+--------------------------------------------------
+
+The differences between the branches are as follows:
+
+- feature-1 prints all numbers between two inputs.
+- feature-2 prints only odd numbers.
+- feature-3 prints only even numbers.
+- main contains the final merged version after resolving conflicts.
+
+These differences can be observed using git diff.
+
+
+--------------------------------------------------
+n) Push All Branches
+--------------------------------------------------
+
+All branches were pushed to the remote repository on GitHub:
+
+- main
+- feature-1
+- feature-2
+- feature-3
+
+The repository and all branches were verified on GitHub.
+
+
+--------------------------------------------------
+GitHub Repository Link
+--------------------------------------------------
+
+https://github.com/AliKanjo/soft2101-hw4
 
