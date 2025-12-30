@@ -1,5 +1,4 @@
-SOFT2101 – Homework 4
-Git & GitHub Part (Person B)
+
 
 --------------------------------------------------
 a) Git Configuration
