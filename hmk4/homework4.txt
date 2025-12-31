@@ -7,7 +7,7 @@ a) Git Configuration
 The following commands were used to configure Git with name, email, and editor:
 
 git config --global user.name "Ali Kanjo"
-git config --global user.email "kanjoali38.com"
+git config --global user.email "kanjoali38@gmail.com"
 git config --global core.editor "code --wait"
 
 To verify the configuration, the following command was used:
